@@ -8,7 +8,6 @@
   </head>
   <body>
     <h1>Today</h1>
-    <% date = DateTime.new %>
-    <p>The date is <%=date.day%>, <%=date.month%>, <%=date.year%></p>
+    <p>The date is <%=Date.today.strftime("%A, %B %d, %Y")%></p>
   </body>
 </html>
